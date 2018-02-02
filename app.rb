@@ -22,7 +22,6 @@ end
   get '/multiply/:number1/:number2' do
     @product = params[:number1].to_i * num2 = params[:number2].to_i
     "#{@product}"
-  
   end
 
 
