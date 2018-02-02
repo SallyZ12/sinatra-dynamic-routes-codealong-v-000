@@ -22,7 +22,7 @@ end
   get '/multiply/:number1/:number2' do
     product = params[:number1] * params[:number2]
     product
-end.first
+  end
 
 
 
